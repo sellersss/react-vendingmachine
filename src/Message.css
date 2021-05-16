@@ -1,0 +1,12 @@
+.Message {
+  text-align: center;
+  background-color: pink;
+  width: 300px;
+  font-weight: 100;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.Message h1 {
+  font-weight: 100;
+}

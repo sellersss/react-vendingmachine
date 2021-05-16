@@ -1,0 +1,40 @@
+.VendingMachine {
+  height: 95vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('./vendingmachine.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.VendingMachine-links {
+  width: 400px;
+  text-align: center;
+  margin: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgba(30, 30, 30, 0.199);
+}
+
+.VendingMachine-links .link {
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.VendingMachine-links .link:hover {
+  color: red;
+}
+
+.VendingMachine-title {
+  width: 400px;
+  margin: 150px;
+  text-transform: uppercase;
+  text-align: center;
+}
